@@ -23,16 +23,4 @@ class ListController {
     todoList.add(await database.loadDatabase());
     print("load from Database Done");
   }
-
-  addtwonumbers(a, b) {
-    return a + b;
-  }
-
-  dividetwonumbers(a, b) {
-    return a / b;
-  }
-
-  multiplytwonumbers(a, b) {
-    return a * b;
-  }
 }
